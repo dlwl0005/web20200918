@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* 자손 selector(space:부모자식 사이 라는 조건이 맞아야함) */
+        .div1 div {
+            color:blue;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div>Lorem, ipsum dolor.</div>
+        <div>Eligendi, nobis commodi!</div>
+        <div>Nostrum, perferendis veritatis!</div>
+        <div>
+            <div>Lorem, ipsum dolor.</div>
+        </div>
+    </div>
+    <div class="div2">
+        <div>Lorem, ipsum dolor.</div>
+        <div>Error, molestiae similique?</div>
+        <div>Modi, ipsa odio.</div>
+    </div>
+</body>
+</html>
