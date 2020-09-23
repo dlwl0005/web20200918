@@ -43,9 +43,20 @@
             console.log(txt);
         }
         for(var i = 0; i<5; i++){
-            var txt ="";
-            for(var j = 4; j>=i; j--){
-                txt += "*";
+            var txt = "";
+            for(var j = 5; j>i; j--){
+                txt +="*" ;
+            }for(var k = 0; k<=i; k++){
+                txt +=" ";
+            }
+            console.log(txt);
+        }
+        for(var i = 0; i<5; i++){
+            var txt = "";
+            for(var j = 5; j>i; j--){
+                txt +=" " ;
+            }for(var k = 0; k<=i; k++){
+                txt +="*";
             }
             console.log(txt);
         }
