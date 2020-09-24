@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+    </style>
+</head>
+<body>
+    <h1 id="head1">Lorem ipsum dolor sit amet.</h1>
+    <h1 id="head2">Quasi, ex. Incidunt, quos illo.</h1>
+    <h1 id="head3">Et animi maxime incidunt vero?</h1>
+    <h1 id="head4">Inventore laudantium saepe eveniet aliquid!</h1>
+    <h1 id="head5">Suscipit optio quisquam vitae ipsam.</h1>
+    <script>
+        var head = document.getElementById("head1");
+        var heads = document.getElementsByTagName("h1");//h1을 전부 배열로 묶음
+        console.log(heads.length);
+
+        for(var i = 0; i<heads.length; i++){
+            console.log(heads[i].innerHTML);
+        }
+    </script>
+</body>
+</html>

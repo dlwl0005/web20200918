@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+    </style>
+</head>
+<body>
+    <h1 id="head1">Lorem.</h1>
+    <h1 class="note" id="head2">Asperiores!</h1>
+    <h1 class="note error" id="head3">Ab.</h1>
+    <h1 class="note error" id="head4">Natus?</h1>
+    <h1 id="head5">Quae.</h1>
+    <script>
+        var h1 = document.querySelector("#head1");//하나만 검색가능
+        console.log(h1.innerHTML);
+
+        var h2 = document.querySelector(".note");//여러개 있을경우 가장 먼저 나온거부터 검색
+        console.log(h2.innerHTML);
+    </script>
+</body>
+</html>
