@@ -1,0 +1,66 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <style>
+         table{
+             border: 1px solid black;
+             width: 100%;
+             border-collapse: collapse;
+             text-align: center;
+         }
+         td{
+             border: 1px solid black;
+         }
+     </style>
+ </head>
+ <body>
+     <table>
+         <tr>
+             <td>Lorem.</td>
+             <td>Dicta.</td>
+             <td>Consequatur?</td>
+             <td>Assumenda.</td>
+             <td>Cumque?</td>
+             <td>Rerum!</td>
+         </tr>
+         <tr>
+             <td>Delectus?</td>
+             <td>Natus?</td>
+             <td>Illum!</td>
+             <td>Culpa.</td>
+             <td>Beatae?</td>
+             <td>Rerum.</td>
+         </tr>
+         <tr>
+             <td>Iste?</td>
+             <td>Optio!</td>
+             <td>Quas?</td>
+             <td>Minima!</td>
+             <td>Eum!</td>
+             <td>Quibusdam?</td>
+         </tr>
+         <tr>
+             <td>Impedit.</td>
+             <td>Quas!</td>
+             <td>Aut?</td>
+             <td>Vel?</td>
+             <td>Voluptatem?</td>
+             <td>Autem.</td>
+         </tr>
+         <tr>
+             <td>Ea.</td>
+             <td>Magnam.</td>
+             <td>Vitae?</td>
+             <td>Voluptate.</td>
+             <td>Aut.</td>
+             <td>Reprehenderit?</td>
+         </tr>
+     </table>
+     <script>
+         //$("tr:odd").hide();//홀수번호 테이블이 사라진다.
+         $("tr:nth-child(2n)").hide();//2번째와 4번째 자식이 사라진다.
+     </script>
+ </body>
+ </html>
