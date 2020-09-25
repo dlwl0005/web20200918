@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+    </style>
+    <script>
+        $(document).ready(function() {
+            $("#btn1").click(function(){
+                $("#div2").slideDown();
+            });
+            $("#btn2").click(function(){
+                $("#div2").slideUp();
+            });
+            $("#div3").click(function(){
+                $("#div4").slideToggle();
+            });
+        });
+    </script>
+</head>
+<body>
+        <button id="btn1">down</button>
+        <button id="btn2">up</button>
+        <h1 id="div2">Hello world!</h1>
+        <br>
+        <h1 id="div3">click</h1>
+        <h1 id="div4">Hello world!</h1>
+</body>
+</html>
