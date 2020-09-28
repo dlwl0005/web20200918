@@ -7,7 +7,8 @@
     </style>
     <script>
         $(document).ready(function() {
-            $("#div1").prepend("hello");//앞에 원하는 텍스트 추가(엘리멘트안쪽)
+            $("#div1").before("hello");//엘리멘트 실행하기전에 텍스트 추가(엘리멘트 밖)
+            $("#div1").after("world");//엘리멘트 실행후 텍스트 추가(엘리멘트 밖)
         });
     </script>
 </head>
